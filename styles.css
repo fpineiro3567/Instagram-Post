@@ -1,0 +1,189 @@
+
+
+body{
+    background: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.post {
+    background: white;
+    width: 540px;
+    height: 960px;
+    margin: auto;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title1 {
+    margin-left: 10px;
+    flex: 1;
+    text-align: left;
+}
+
+.kebab-menu {
+    display: block;
+    position: relative;
+    text-align: right;
+    margin: 10px;
+
+}
+
+.kebab-menu:hover {
+    color: gray;
+}
+
+.post-img {
+    display: inline;
+    width: 100%;
+    height: auto;
+    padding-bottom: 100%;
+    display: flex;
+    position: relative;
+}
+
+.post-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.profile img{
+    object-position: center;
+    width: 40px;
+    height: auto;
+    position: absolute;
+}
+
+.post-body{
+    padding: 0px 10px 0px 10px;
+    overflow: auto;
+}
+
+.post-body :nth-child(2){
+    margin: 0px 5px 0px 5px;
+}
+
+.post-body :nth-child(3){
+    color: grey;
+    margin: 10px 5px 0px 5px;
+}
+
+.user {
+    margin-right: 5px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+
+.heart, .comment, .share, .save {
+    margin: 0px 10px 0px 10px;
+}
+
+.heart:hover, .comment:hover, .save:hover {
+    color: grey;
+}
+
+.share i:hover{
+    color: grey;
+}
+
+.heart {
+    margin-left: 10px;
+}
+
+.heart:active {
+    color: red;
+}
+
+.share {
+    flex: 1;
+}
+
+.save {
+    text-align: right;
+    float: right;
+    margin-right: 10px;
+}
+
+span {
+    color: gray;
+}
+
+.post-footer {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.profile2 {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin: 10px 5px 10px 15px;
+    overflow: hidden;
+}
+
+.profile2 img {
+    object-position: center;
+    width: 30px;
+    height: auto;
+    position: absolute;
+}
+
+.add-comment {
+    color: grey;
+    margin-left: 2px;
+    margin-top: 8px;
+    flex: 1;
+    text-align: left;
+    align-items: center;
+}
+
+.hours {
+    color: grey;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 15px;
+    display: block;
+    padding: 0;
+}
+
+.comment-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: none;
+}
+
+.user:hover, .post-body :nth-child(3):hover {
+    color: darkgray;
+}
+
+.user-likes:hover {
+    color: darkgray
+}
+
+input.border1 {
+    border: none;
+    border-bottom: 5px grey;
+    outline: none;
+    font-size: 16px;
+}
